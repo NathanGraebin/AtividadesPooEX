@@ -14,7 +14,7 @@ import java.util.Scanner;
  *
  * @author aluno
  */
-public class AtividadesPOO1 {
+public class Adega {
 
     public static void main(String[] args) {
         Scanner Ler = new Scanner(System.in);
