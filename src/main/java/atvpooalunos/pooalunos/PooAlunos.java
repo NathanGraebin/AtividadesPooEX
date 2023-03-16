@@ -140,11 +140,11 @@ public class PooAlunos {
         System.out.println("Informe O CPF do ALUNO1: ");
         cpf = Ler.next();
         
-        novoAluno2.setNome(nome);
-        novoAluno2.setIdade(idade);
-        novoAluno2.setEmail(email);
-        novoAluno2.setTelefone(cpf);
-        novoAluno2.setCpf(cpf);
+        novoAluno3.setNome(nome);
+        novoAluno3.setIdade(idade);
+        novoAluno3.setEmail(email);
+        novoAluno3.setTelefone(cpf);
+        novoAluno3.setCpf(cpf);
 
         Turma turma3 = new Turma(novoAluno3);
         System.out.println("Informe o codigo do Curso: ");
