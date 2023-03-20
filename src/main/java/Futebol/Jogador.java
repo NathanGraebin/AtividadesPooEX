@@ -9,18 +9,30 @@ package Futebol;
  * @author Nathanelisabetinho
  */
 public class Jogador {
-    private String nome;
+    public String nome;
+    private int idJogador;
     private int idade;
     private int numeroCamisa;
-    private String cpf;
+    private int nivelHabilidade;
     private String posicaoJogada;
+    
 
-    public Jogador(String nome, int idade, int numeroCamisa, String cpf, String posicaoJogada) {
+    public Jogador(String nome, int idJogador, int idade, int numeroCamisa, int nivelHabilidade, String posicaoJogada) {
         this.nome = nome;
         this.idade = idade;
         this.numeroCamisa = numeroCamisa;
-        this.cpf = cpf;
+        this.nivelHabilidade = nivelHabilidade;
         this.posicaoJogada = posicaoJogada;
+        this.idJogador = idJogador;
+        
+    }
+
+    public int getIdJogador() {
+        return idJogador;
+    }
+
+    public void setIdJogador(int idJogador) {
+        this.idJogador = idJogador;
     }
 
     public String getNome() {
@@ -47,12 +59,12 @@ public class Jogador {
         this.numeroCamisa = numeroCamisa;
     }
 
-    public String getCpf() {
-        return cpf;
+    public int getNivelHabilidade() {
+        return nivelHabilidade;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setNivelHabilidade(String cpf) {
+        this.nivelHabilidade = nivelHabilidade;
     }
 
     public String getPosicaoJogada() {
@@ -62,6 +74,8 @@ public class Jogador {
     public void setPosicaoJogada(String posicaoJogada) {
         this.posicaoJogada = posicaoJogada;
     }
+    
+    
     
     
 }

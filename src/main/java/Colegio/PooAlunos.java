@@ -149,7 +149,7 @@ public class PooAlunos {
         Turma turma3 = new Turma(novoAluno3);
         System.out.println("Informe o codigo do Curso: ");
         codCurso = Ler.nextInt();
-        turma2.setCodCurso(codCurso);
+        turma3.setCodCurso(codCurso);
         
         System.out.println("Informe o numero da turma: ");
         numeroDaTurma = Ler.nextInt();

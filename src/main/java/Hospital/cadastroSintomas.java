@@ -15,9 +15,10 @@ public class cadastroSintomas {
     cadastroPaciente novoPaciente1;
     cadastroPaciente novoPaciente2;
     cadastroPaciente novoPaciente3;
-
+    
     cadastroSintomas(cadastroPaciente novoPaciente) {
         novoPaciente1 = novoPaciente;
+        
     }
 
     public int getCodSintoma() {
