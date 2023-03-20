@@ -168,7 +168,7 @@ public class GerenciadorFutebol {
                             System.out.println("JOGADOR : " + novotime[i].getNovoJogador());
                             
                         }
-                        System.out.println("############");
+                        System.out.println("############ds#");
                     }
                     break;
 
